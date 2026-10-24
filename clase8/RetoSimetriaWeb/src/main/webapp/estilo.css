@@ -1,0 +1,10 @@
+*{box-sizing:border-box}body{margin:0;background:#f1f5fb;color:#17243b;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+main{max-width:720px;margin:48px auto;padding:0 16px}.card{background:white;border-radius:18px;padding:28px;box-shadow:0 8px 34px #182d4e17}
+h1{font-size:30px;margin:4px 0 8px}.lead{color:#465774;line-height:1.55;margin-bottom:24px}
+label{display:block;font-weight:700;margin:18px 0 7px}input{width:100%;padding:13px 14px;border:1px solid #c0ccdb;border-radius:10px;font-size:16px}
+button,.button{display:inline-block;border:0;border-radius:10px;padding:12px 20px;background:#1765c1;color:white;font-size:16px;text-decoration:none;margin-top:22px;font-weight:700;cursor:pointer}
+.badge{display:inline-block;border-radius:50px;background:#dff1fe;color:#124d91;padding:7px 12px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:19px 0}.item{border:1px solid #dae3f0;border-radius:12px;padding:12px;text-align:center}
+.item strong{display:block;font-size:14px;margin-bottom:5px}.yes{color:#137b54}.no{color:#a03247}.score{font-size:28px;font-weight:800;color:#174c8a}
+.alert{border-left:4px solid #c04958;background:#fff2f4;padding:13px;border-radius:7px}
+@media(max-width:600px){.grid{grid-template-columns:1fr}h1{font-size:24px}.card{padding:20px}}
